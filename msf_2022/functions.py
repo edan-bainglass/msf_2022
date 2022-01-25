@@ -1,10 +1,10 @@
 """Provide the primary functions."""
 
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # type: ignore
 
 
-def calculate_distance(rA, rB):
+def calculate_distance(rA: np.ndarray, rB: np.ndarray) -> float:
     """
     Calculate the distance between two points.
 
